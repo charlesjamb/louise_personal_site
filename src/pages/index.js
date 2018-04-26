@@ -2,11 +2,17 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
+  <div style={{
+    'display': 'flex',
+    'flex-direction': 'column',
+    'justify-content': 'center',
+    'align-items': 'center',
+  }}>
+    <h1>Site en construction <span className='construction-woman'></span></h1>
+    <img style={{ 'margin': 'auto' }} src='http://thecatapi.com/api/images/get?format=src&type=gif'/>
+    {
+      // <Link to="/page-2/">Go to page 2</Link>
+    }
   </div>
 )
 

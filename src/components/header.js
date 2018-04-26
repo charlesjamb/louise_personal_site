@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 const Header = ({ siteTitle }) => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: 'lightsalmon',
       marginBottom: '1.45rem',
     }}
   >
@@ -23,7 +23,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: 'none',
           }}
         >
-          {siteTitle}
+          {siteTitle} <span className='waving-hand'></span>
         </Link>
       </h1>
     </div>
